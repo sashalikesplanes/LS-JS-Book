@@ -1,0 +1,1 @@
+// No error will result, as JS will simply return undefined if looking up an out-of-bound index
