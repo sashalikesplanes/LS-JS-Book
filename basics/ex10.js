@@ -1,0 +1,1 @@
+'Foo' === 'foo'; // will evaluate to false as string comparison is case sensetive
