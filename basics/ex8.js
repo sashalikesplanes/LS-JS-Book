@@ -5,4 +5,4 @@ const petNames = [
   'imo',
   'pudding',
   'darwin',
-]
+];
