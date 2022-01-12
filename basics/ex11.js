@@ -1,0 +1,1 @@
+parseInt('3.1415'); // evaluates to 3 (number) as parseInt stops at first non numeric
