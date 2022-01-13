@@ -1,8 +1,5 @@
 const upperString = string => {
-  if (string.length > 10) {
-    return string.toUpperCase();
-  }
-  return string;
+  return string.length > 10 ? string.toUpperCase() : string;
 }
 
 console.log(upperString('sasha'));
