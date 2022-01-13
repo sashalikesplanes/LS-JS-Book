@@ -4,6 +4,7 @@ function randomNumberBetween(min, max) {
 
 let tries = 0;
 let result;
+
 do {
   result = randomNumberBetween(1, 6);
   tries += 1;
