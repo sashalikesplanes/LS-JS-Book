@@ -20,3 +20,5 @@ barCodeScanner('113');
 // case executes as there is no break statement
 
 // Also 'Product3' is printed as the case statement no longer needs to be true
+
+// AKA case fall-through
