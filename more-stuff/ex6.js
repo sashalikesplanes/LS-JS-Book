@@ -7,6 +7,6 @@ let words = [
   'polar bear',
 ];
 
-const allMatches = (arr, pattern) => arr.filter(elm => pattern.test(elm));
+const allMatches = (words, pattern) => words.filter(word => pattern.test(word));
 
 console.log(allMatches(words, /lab/)); // => ['laboratory', 'flab', 'elaborate']
