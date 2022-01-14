@@ -4,8 +4,6 @@ let myProtoObj = {
 };
 
 let myObj = Object.create(myProtoObj);
-//newObj.buz = 3;
-console.log(myProtoObj);
-console.log(myObj.foo);
-
 // Printing JS objects only prints own and not inherited properites
+
+myObj.qux = 3;
