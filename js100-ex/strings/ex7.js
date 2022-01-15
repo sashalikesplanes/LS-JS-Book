@@ -1,0 +1,1 @@
+const isBlank = str => !!str.length;
