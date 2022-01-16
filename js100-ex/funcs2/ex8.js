@@ -1,6 +1,4 @@
-const initGame = () => { 
-  return { level: 1, score: 0, };
-};
+const initGame = () => ({ level: 1, score: 0, });
 
 let game = initGame();
 
